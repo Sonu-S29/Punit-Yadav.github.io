@@ -1,0 +1,385 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Punit Yadav</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- Apple Touch Icon -->
+	<link rel="apple-touch-icon" href="images/boxing-gloves.png" />
+
+	<!-- Android Icon -->
+	<link rel="icon" sizes="200x200" href="images/boxing-gloves.png" />
+
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+
+	<style>
+		.slider {
+			position: relative;
+			width: 100%;
+			max-width: 600px;
+			/* Adjust max-width to your preference */
+			margin: 0 auto;
+			overflow: hidden;
+		}
+
+		.slides {
+			display: flex;
+			transition: transform 1s ease-in-out;
+		}
+
+		.slide {
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+		}
+
+		/* Centering the buttons and text */
+		.button-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 20px;
+			margin-bottom: 30px;
+		}
+
+		.toggle-btn {
+			background-color: #000;
+			color: white;
+			border: none;
+			font-size: 0.7em;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+			text-align: center;
+			border-radius: 5px;
+		}
+
+		.toggle-btn:hover {
+			background-color: #454545;
+		}
+
+		/* Initially hide both grids */
+.table-container {
+    display: none;
+}
+
+/* Optional: You can also style the tables here if needed */
+.charges-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+/* Hover effect only on table cells */
+.charges-table  tr:hover {
+    box-shadow: 0 0 10px 2px rgba(202, 203, 202, 0.747); /* Glow effect */
+    font-size: 17px;  /* Increase font size by 2px */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.charges-table th {
+    pointer-events: none; /* Prevent interaction on th */
+	font-size: 1.3em;;
+}
+
+
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<span><img src="images/output-onlinepngtools.png" width="50" height="50" style="margin-top: 5px;"> </span>
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1>Punit Yadav</h1>
+					<p>A professional trainer in boxing, yoga, karate, and combat sports<br> designs programs to boost
+						strength, technique, and focus,<br> helping clients achieve their fitness and self-defense
+						goals.</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#intro">Intro</a></li>
+					<li><a href="#work">Plan</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<article id="intro">
+				<h2 class="major">Intro</h2>
+				<span class="image main"><img src="images/img1.jpeg" alt="" /></span>
+				<p>Hello, I'm Punit Yadav, a professional trainer with 2 years of experience and having trained over 100
+					clients, including state-level athletes. I combine expert knowledge and diverse skills to create
+					dynamic, personalized training programs. I focus on improving strength, flexibility, mental
+					discipline, and self-defense techniques.</p>
+				<p>My training approach emphasizes both physical conditioning and mental focus, guiding clients through
+					intense workouts, precise techniques, and mindfulness practices. Whether preparing athletes for
+					competition, helping individuals enhance fitness, or introducing beginners to martial arts, I
+					provide a safe, motivating environment that fosters personal growth and mastery of the craft.</p>
+			</article>
+
+
+
+			<!-- About -->
+			<article id="about">
+				<h2 class="major">About</h2>
+				<span class="image main"><img src="images/img2.JPG" alt="Punit Yadav Training" /></span>
+				<p>Hello, I'm Punit Yadav, a professional trainer with a <strong>Master's in Sports Science</strong> and
+					a state-level player with multiple match wins. With over 2 years of experience and having trained
+					more than 100 clients, I offer personalized training as well as group sessions designed to enhance
+					both physical and mental well-being. My training expertise spans
+					<a href="https://en.wikipedia.org/wiki/Boxing" target="_blank"><strong>boxing</strong></a>,
+					<a href="https://en.wikipedia.org/wiki/Yoga" target="_blank"><strong>yoga</strong></a>,
+					<a href="https://en.wikipedia.org/wiki/Muay_Thai" target="_blank"><strong>Muay Thai</strong></a>,
+					<a href="https://en.wikipedia.org/wiki/Karate" target="_blank"><strong>karate</strong></a>,
+					and <a href="https://en.wikipedia.org/wiki/Combat_sport" target="_blank"><strong>combat
+							sports</strong></a>,
+					and I focus on creating tailored regimens that improve <strong>strength</strong>,
+					<strong>flexibility</strong>, <strong>mental discipline</strong>, and <strong>self-defense
+						skills</strong>.
+				</p>
+			</article>
+
+
+
+
+
+			<!-- Contact -->
+			<article id="contact">
+				<h2 class="major">Contact</h2>
+				<form method="post" action="#">
+					<div class="fields">
+						<div class="field half">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" placeholder="Enter your name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" placeholder="Enter your email id" />
+						</div>
+						<div class="field half">
+							<label for="phone">Phone</label>
+							<input type="tel" name="phone" id="phone" pattern="[0-9]{10}"
+								placeholder="Enter your 10-digit phone number" style="width: 100%; height: 2.7em;" />
+						</div>
+						<div class="field half">
+							<label for="sport">Select Sport</label>
+							<select name="sport" id="sport" style="width: 100%;">
+								<option value="" disabled selected>Select a sport</option>
+								<option value="boxing">Boxing</option>
+								<option value="yoga">Yoga</option>
+								<option value="muay-thai">Muay Thai</option>
+								<option value="karate">Karate</option>
+								<option value="combat-sports">Combat Sports</option>
+							</select>
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" class="primary" /></li>
+						<li><input type="reset" value="Reset" /></li>
+					</ul>
+				</form>
+				<ul class="icons">
+					<li><a href="tel:+918052429893" class="icon fa-phone"><span class="label">Call</span></a></li>
+					<li><a href="mailto:ypunit030@gmail.com" class="icon fa-envelope"><span class="label">Mail</span></a></li>
+					<li><a href="https://www.instagram.com/boxerpunit_299/" class="icon fa-instagram"><span
+								class="label">Instagram</span></a></li>
+					<li><a href="https://api.whatsapp.com/send/?phone=918052429893&text&type=phone_number&app_absent=0"
+							class="icon fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+				</ul>
+			</article>
+
+
+
+
+
+
+
+			<!-- Work -->
+<article id="work">
+    <h2 class="major">Plan</h2>
+
+    <!-- Slider container -->
+    <div class="slider">
+        <div class="slides image">
+            <img src="images/boxing.avif" alt="Boxing" class="slide" />
+            <img src="images/yoga.jpg" alt="Yoga" class="slide" />
+            <img src="images/muaythai.jpg" alt="Muay Thai" class="slide" />
+            <img src="images/karate.jpg" alt="Karate" class="slide" />
+            <img src="images/combatsport.webp" alt="Combat Sports" class="slide" />
+        </div>
+    </div>
+
+    <h2 style="text-align: center;">Charges for Sessions</h2>
+
+    <!-- Centered Button Container -->
+    <div class="button-container">
+        <!-- First toggle button for the first table -->
+        <button class="toggle-btn" onclick="toggleGrid('chargesGrid1')">Online Sessions</button>
+
+        <!-- Second toggle button for the second table -->
+        <button class="toggle-btn" onclick="toggleGrid('chargesGrid2')">Offline Sessions</button>
+    </div>
+
+    <!-- First table for online sessions -->
+    <div class="table-container" id="chargesGrid1">
+        <table class="charges-table">
+            <thead>
+                <tr>
+                    <th>Sessions</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Single Session</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Monthly Sessions</td>
+                    <td>5,000</td>
+                </tr>
+                <tr>
+                    <td>Quarterly Sessions</td>
+                    <td>13,500</td>
+                </tr>
+                <tr>
+                    <td>Half Yearly Sessions</td>
+                    <td>22,500</td>
+                </tr>
+                <tr>
+                    <td>Annually Sessions</td>
+                    <td>36,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Second table for offline sessions -->
+    <div class="table-container" id="chargesGrid2">
+        <table class="charges-table">
+            <thead>
+                <tr>
+                    <th>Sessions</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Single Session</td>
+                    <td>1,000</td>
+                </tr>
+                <tr>
+                    <td>Monthly Sessions</td>
+                    <td>8,000</td>
+                </tr>
+                <tr>
+                    <td>Quarterly Sessions</td>
+                    <td>15,000</td>
+                </tr>
+                <tr>
+                    <td>Half Yearly Sessions</td>
+                    <td>28,000</td>
+                </tr>
+                <tr>
+                    <td>Annually Sessions</td>
+                    <td>40,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</article>
+
+			
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy;<a
+					href="https://api.whatsapp.com/send/?phone=919372000951&text&type=phone_number&app_absent=0">Trishul
+					Techs</a></p>
+		</footer>
+
+	</div>
+
+	<!-- BG -->
+	<div id="bg"></div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<script>
+		let currentIndex = 0;
+		const slides = document.querySelectorAll('.slide');
+		const totalSlides = slides.length;
+
+		function showNextSlide() {
+			currentIndex = (currentIndex + 1) % totalSlides;
+			document.querySelector('.slides').style.transform = `translateX(-${currentIndex * 100}%)`;
+		}
+
+		setInterval(showNextSlide, 2000); // Slide every 2 seconds
+	</script>
+
+	<script>
+		// Function to toggle the visibility of a grid by its ID
+		function toggleGrid(gridId) {
+			const grid1 = document.getElementById('chargesGrid1');
+			const grid2 = document.getElementById('chargesGrid2');
+
+			// If the selected grid is already visible, hide it
+			if (gridId === 'chargesGrid1') {
+				grid1.style.display = (grid1.style.display === 'grid') ? 'none' : 'grid';
+				grid2.style.display = 'none';  // Hide the other grid
+			} else if (gridId === 'chargesGrid2') {
+				grid2.style.display = (grid2.style.display === 'grid') ? 'none' : 'grid';
+				grid1.style.display = 'none';  // Hide the other grid
+			}
+		}
+	</script>
+
+	<script>
+		// Store the original title
+		const originalTitle = document.title;
+
+		// Event listener for when the visibility of the page changes
+		document.addEventListener("visibilitychange", function () {
+			if (document.hidden) {
+				// When the page is hidden, change the title
+				document.title = "Missing you! 😢";
+			} else {
+				// When the page becomes visible again, revert the title to original
+				document.title = originalTitle;
+			}
+		});
+	</script>
+
+
+
+</body>
+
+</html>
